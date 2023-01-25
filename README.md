@@ -46,3 +46,4 @@ flask run
 ```
 
 Referenciado de [PatrickLoeber](https://github.com/patrickloeber/flask-todo)
+# flask_app_postgresql
