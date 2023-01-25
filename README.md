@@ -3,12 +3,13 @@ Simple Flask Todo App using SQLAlchemy and SQLite database.
 For styling [semantic-ui](https://semantic-ui.com/) is used.
 
 ### Setup
+
 Create project with virtual environment
 
 ```console
-$ mkdir myproject
-$ cd myproject
-$ python3 -m venv venv
+mkdir myproject
+cd myproject
+python3 -m venv venv
 ```
 
 Activate it
@@ -19,14 +20,14 @@ venv\Scripts\activate
 
 Install Flask
 ```console
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Set environment variables in terminal
 
 ```console
-$ set FLASK_APP=app.py
-$ set FLASK_ENV=development
+set FLASK_APP=app.py
+set FLASK_ENV=development
 ```
 
 Run the migrations
