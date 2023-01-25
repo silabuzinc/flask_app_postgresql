@@ -29,6 +29,14 @@ $ set FLASK_APP=app.py
 $ set FLASK_ENV=development
 ```
 
+Run the migrations
+
+```console
+flask db init
+flask db migrate -m "Initial database"
+flask db upgrade
+```
+
 Run the app
 ```console
 $ flask run
