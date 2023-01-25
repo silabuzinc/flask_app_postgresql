@@ -2,3 +2,5 @@ Flask
 Flask-Migrate
 Flask-SQLAlchemy
 SQLAlchemy
+psycopg2
+python-dotenv
