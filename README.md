@@ -24,11 +24,12 @@ Install Flask
 pip install -r requirements.txt
 ```
 
-Set environment variables in terminal
+Add .env with
 
 ```console
-set FLASK_APP=app.py
-set FLASK_ENV=development
+FLASK_APP=app.py
+FLASK_DEBUG=1
+SQLALCHEMY_DATABASE_URI=""postgresql://postgres:password@localhost:5432/flask""
 ```
 
 Run the migrations
