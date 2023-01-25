@@ -27,7 +27,14 @@
         {% for todo in todo_list %}
         <div class="ui segment">
             <p class="ui big header">{{todo.id }} | {{ todo.title }}</p>
-
+            <div class="ui list">
+                <div class="item">Created At: {{todo.created_at.strftime('%Y-%m-%d')}}</div>
+                {% if todo.time_updated %}
+                <div class="item">Last Update: {{(datetime - todo.time_updated).seconds//60}} minutes ago</div>
+                {% else %}
+                <div class="item">Last Update: No updated</div>
+                {% endif %}
+              </div>
             {% if todo.complete == False %}
             <span class="ui gray label">Not Complete</span>
             {% else %}
