@@ -19,6 +19,7 @@ venv\Scripts\activate
 ```
 
 Install Flask
+
 ```console
 pip install -r requirements.txt
 ```
@@ -39,8 +40,9 @@ flask db upgrade
 ```
 
 Run the app
+
 ```console
-$ flask run
+flask run
 ```
 
 Referenciado de [PatrickLoeber](https://github.com/patrickloeber/flask-todo)
