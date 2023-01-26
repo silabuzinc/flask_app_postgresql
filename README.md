@@ -1,3 +1,5 @@
+# flask_app_postgresql
+
 Simple Flask Todo App using SQLAlchemy and SQLite database.
 
 For styling [semantic-ui](https://semantic-ui.com/) is used.
@@ -11,8 +13,6 @@ mkdir myproject
 cd myproject
 python3 -m venv venv
 ```
-
-# flask_app_postgresql
 
 Activate it
 
