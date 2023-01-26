@@ -12,6 +12,8 @@ cd myproject
 python3 -m venv venv
 ```
 
+# flask_app_postgresql
+
 Activate it
 
 ```console
@@ -47,4 +49,3 @@ flask run
 ```
 
 Referenciado de [PatrickLoeber](https://github.com/patrickloeber/flask-todo)
-# flask_app_postgresql
