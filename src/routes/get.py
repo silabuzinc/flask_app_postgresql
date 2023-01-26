@@ -6,5 +6,5 @@ get = Blueprint('get', __name__)
 
 @get.route("/")
 def home():
-    todo_list = Todo.query.all()
+    todo_list = Todo.query.order_by("id").all()
     return render_template("base.html", todo_list=todo_list, datetime=datetime.now(timezone.utc))

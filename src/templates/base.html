@@ -37,11 +37,13 @@
               </div>
             {% if todo.complete == False %}
             <span class="ui gray label">Not Complete</span>
+            <a class="ui blue button" href="/update/{{ todo.id }}">Complete</a>
             {% else %}
             <span class="ui green label">Completed</span>
+            <a class="ui blue button" href="/update/{{ todo.id }}">Not Complete</a>
             {% endif %}
 
-            <a class="ui blue button" href="/update/{{ todo.id }}">Update</a>
+            <a class="ui green button" href="/update_form/{{ todo.id }}">Update</a>
             <a class="ui red button" href="/delete/{{ todo.id }}">Delete</a>
         </div>
         {% endfor %}
